@@ -1,6 +1,6 @@
 This document consists of Web Track tasks that will help you to begin your journey in the programming world and move one step ahead to be part of Team TechnoJam.
 
- Submission Guidelines
+# Submission Guidelines
 
 Create a GitHub repository with the name ‘technojam-task’. 
 Make a folder for the respective task with the name task_#, where # is a task number. Each task must consist of a README.md file where you have to describe how you approached the task and the difficulty you have faced while solving the task. 
@@ -17,29 +17,24 @@ Also directly copying and pasting code will make that submission invalid, and no
 
 # challenge (level 1)
 
-Build a web page layout copying and site using grid or flexbox 
-you are free to use any js  library like react vue or any other or you can use basic html and css 
-the Design should not be very complicated it should be simple and clean in addition to that you have to make 2 page one for registration and for login very basic Design 
-The criteria for marking will be ability to copy layout and work with grid or flexbox and basics of web development the resources which will help you to easily complete the task is given below
+Build a web page layout for a portfolio website which will have a navbar and hero section and about me which will have an image and some description you can use anything grid or flexbox for designing no need to make complicated design some reference youtube video are given below 
 
-(https://www.youtube.com/watch?v=JJSoEo8JSnc)
-(https://www.youtube.com/watch?v=jV8B24rSN5o)
+(https://www.youtube.com/watch?v=tcskp-ncN0I&t=47s)
+(https://www.youtube.com/watch?v=4mu1vbEz9WM&t=50s)
+(https://www.youtube.com/watch?v=dgKSqz3it50&t=166s)
 
 # challenge (level 2)
 
-Second task is create api for login and register using nodejs or any other languages api is just the functionality how things are handled at the backend don't worry we are hear to help you videos will be available for you to follow along
+Make contact form and,project display section and Testimonial section and combine them in the above task the above links will help you in this challenge too refine your design and make your design unique don't just completely compy design add some of your touch to it  
 
-(https://www.youtube.com/watch?v=_EP2qCmLzSE&t=4s)
 
 # challenge (level 3)
 
-Third task is to combine both frontend and backend using axios or fetch just a normal post request no need to hash the password and all just save the user in mongodb database and get the user at the frontend again videos will be provided to follow along
+Add some animation anything like scroll animation or anything of your choice to your portfolio website add your social media links  
 
-(https://www.youtube.com/watch?v=oQnojIyTXb8&t=52s)
+(https://www.youtube.com/watch?v=S18Wh9IELo0)
 
-# challenge (level 4)
 
-Fourth task is making websites responsive for mobile with a responsive navbar and add animation and something creative which makes you stand out from other
 
-(https://www.youtube.com/watch?v=aook54SsfhY)
+
 
