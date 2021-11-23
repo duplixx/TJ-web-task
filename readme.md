@@ -12,8 +12,7 @@ Refer to the below table to know the minimum points/criteria required to get qua
 
 Make sure you don't get sidetracked into learning a whole language/ framework/ tech-stack for completing a task. You only have to learn the necessary things which are required to complete the task. 
 
-Also directly copying and pasting code will make that submission invalid, and no points will be counted. The last date for task submission is 10th December 2021, which can be extended in case of clashes with ETE.
-
+Also directly copying and pasting code will make that submission invalid, and no points will be counted.
 
 # challenge (level 1)
 
