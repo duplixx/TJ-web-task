@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+* {
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  position: absolute;
+  top: 0;
+  left: 35%;
+  width: 65%;
+  padding-top: 45px;
+  z-index: 10;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  /* border: 2px solid wheat; */
+}
+
+header .logo {
+  color: rgb(255, 255, 255);
+  font-size: 3.5em;
+  text-align:center;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-shadow: rgb(255, 149, 149);
+  text-shadow: 4em;
+}
+/* .logo1
+{
+  color: rgb(255, 255, 255);
+  font-size: 1.99em;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-shadow: 2em;
+  padding-right: 1em;
+} */
+.toggle {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  /* outline-style: multiply; */
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: right;
+  cursor: pointer;
+  mix-blend-mode: none;
+  position: fixed;
+  top: 50px;
+  left: 25px;
+}
+
+.showcase {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  transition: 0.5s;
+  z-index: 2;
+}
+.showcase.active {
+  right: 300px;
+}
+
+.showcase .img2 {
+  /* overflow: none; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  opacity: 1;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #21cfee;
+  mix-blend-mode: multiply;
+}
+.text {
+  position: relative;
+  z-index: 10;
+  
+}
+
+.text h2 {
+  font-size: 3em;
+  font-weight: 800;
+  color: rgb(238, 238, 238);
+  line-height: 1em;
+  text-transform: uppercase;
+  transform: 0.5s;
+  
+
+}
+.text h3 {
+  padding-bottom: -5px;;
+  font-size: 3em;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1em;
+  text-transform: uppercase;
+  
+}
+.text p {
+  font-size: 1em;
+  color: #fff;
+  margin: 20px 0;
+  text-transform: none;
+  text-decoration: none;
+  font-weight: 400;
+  max-width: 50px;
+  padding:20%;
+}
+.text a {
+  display: inline-block;
+  font-size: 2em;
+  background-image: linear-gradient(to right, #4CB8C4 0%, #3CD3AD  51%, #4CB8C4  100%);
+  padding: 10px 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  margin-top: 0px;
+  color: #111;
+  animation-fill-mode: backwards;
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+.text a:hover {
+  letter-spacing: 6px;
+}
+
+.social {
+  position:absolute;
+  top: 5%;
+  /* border: 2px solid white; */
+  
+  display: flex;
+  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-around;
+}
+  
+.social div {
+  width: 4em;
+  margin: 0.51em;
+}
+
+.social div .logoimg {
+  width: 4em;
+  height: 4em;
+}
+
+body {
+  overflow: none;
+  background: #0f1129;
+  padding-top: 5em;
+  display: flex;
+  justify-content: center;
+}
+
+/* DEMO-SPECIFIC STYLES */
+.text h2 {
+  color: #fff;
+  /* font-family: monospace; */
+  overflow:hidden; /* Ensures the content is not revealed until the animation */
+  /* border-right: .15em solid orange; The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin:auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 4s steps(30, end),
+    blink-caret .6s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 50% }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(255, 255, 255) }
+}
+
+
+html,body{
+  padding: 0;
+}
+.dropbtn {
+  background-color:transparent;
+  border:none;
+  color: white;
+  padding: 16px;
+  font-size:2em;
+  border: none;
+  cursor: pointer;
+  font-weight:600;
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  left:-5%;
+  
+}
+
+.dropdown-content {
+  display:none;
+  position:fixed;
+  background-color: #f0f0f06b;
+  min-width:190px;
+  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgb(255, 249, 249);
+  padding: 10px 10px;
+  text-decoration: none;
+  display:block;
+  font-size: 1.2em;
+
+  
+}
+
+.dropdown-content a:hover {background-color: #f1f1f13a}
+
+.dropdown:hover .dropdown-content {
+  display:block;
+  
+
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #93fcf31c;
+}
